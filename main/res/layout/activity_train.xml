@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/grass"
+            android:src="@drawable/grass"
+            android:clickable="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"/>
+
+    <Button
+            android:text="PREV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPrev2"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="203dp"/>
+    <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="293dp"
+            android:id="@+id/videoView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="438dp"/>
+    <Button
+            android:text="NEXT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnNext"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="325dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="203dp"/>
+    <Button
+            android:text="START"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btnStart"
+            android:layout_marginBottom="2dp"/>
+
+    <ProgressBar
+            android:id="@+id/progressBarCircle"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="233dp"
+            android:layout_height="224dp"
+            android:background="@drawable/drawable_circle_dark_blue"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/drawable_circle_yellow"
+            android:rotation="-90"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="115dp"
+            android:layout_toEndOf="@+id/btnPrev2"
+            android:layout_marginStart="0dp"/>
+
+    <TextView
+            android:text="100"
+            android:gravity="center"
+            android:textColor="#fffdffff"
+            android:textSize="32dp"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="153dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/txtSec"
+            android:layout_marginBottom="204dp"/>
+    <TextView
+            android:text="@string/ex1"
+            android:gravity="center"
+            android:textColor="#fffdffff"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-6dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/textExName"
+            android:layout_marginTop="297dp"/>
+
+
+</RelativeLayout>

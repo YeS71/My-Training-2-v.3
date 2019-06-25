@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MyTraininng2</string>
+    <string name="grass">Трава</string>
+    <string name="ex1">Бёрпи лайт</string>
+
+    <array name="video_ex1_arr">
+        <item>@raw/one</item>
+        <item>@raw/two</item>
+        <item>@raw/three</item>
+    </array>
+
+    <!--<array name="audio_ex1_arr">-->
+        <!--<item>@raw/one_a</item>-->
+        <!--<item>@raw/two_a</item>-->
+        <!--<item>@raw/three_a</item>-->
+    <!--</array>-->
+
+    <array name="timer_ex1_arr">
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </array>
+
+    <array name="video_ex2_arr">
+        <item>@raw/one</item>
+        <item>@raw/three</item>
+        <item>@raw/two</item>
+    </array>
+
+</resources>
